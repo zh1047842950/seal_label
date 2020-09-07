@@ -7,9 +7,10 @@ RUN source /etc/profile \
 && rm -rf ./modefine_node_modules \
 && npm run build
 
-FROM zsf10838438/node_env:v3
+FROM zsf10838438/seal_label:v1
 COPY --from=build /workspace/seal_label/dist/build/h5 /server/static/seal_label
 COPY /server /workspace/seal_label
 WORKDIR /workspace/seal_label
-RUN source /etc/profile \
-&& npm install
+RUN mv /home/static ./static \
+&& source /etc/profile \
+&& npm install 
