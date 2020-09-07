@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.scss"],"names":[],"mappings":"AAAA,iBACE,aAAc,CADhB,8BAKM,UAAW,CACX,cAAe,CACf,WAAY","file":"13.e5fea516.chunk.css","sourcesContent":[".ads_info_detail {\r\n  padding: .5rem;\r\n\r\n  .content {\r\n    img {\r\n      width: 100%;\r\n      max-width: 100%;\r\n      height: auto;\r\n    }\r\n  }\r\n}\r\n"]}

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    {
+      "path": "pages/conventional/index",
+      "style": {
+        "navigationBarTitleText": "常规"
+      }
+    },
+    {
+      "path": "pages/label_edit/index",
+      "style": {
+        "navigationBarTitleText": "标签定制"
+      }
+    },
+    {
+      "path": "pages/industry/index",
+      "style": {
+        "navigationBarTitleText": "行业"
+      }
+    },
+    {
+      "path": "pages/ranking/index",
+      "style": {
+        "navigationBarTitleText": "排行"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/seal_detail/index",
+      "style": {
+        "navigationBarTitleText": "印章详情"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "自定义印章",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

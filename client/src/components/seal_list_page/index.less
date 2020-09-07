@@ -1,0 +1,49 @@
+  @import "src/uni";
+
+  .seal_list_page {
+
+    .seal_list {
+      background-color: #303030;
+
+      /deep/ .uni-scroll-view-content {
+        column-count: 2;
+        grid-column-gap: 5px;
+        column-gap: 5px;
+        padding: 5px;
+
+        .seal_item {
+          page-break-inside: avoid;
+          break-inside: avoid;
+          margin-bottom: 5px;
+          background-color: white;
+          border-radius: 5px;
+          overflow: hidden;
+          padding-bottom: 10px;
+
+          img {
+            width: 100%;
+            object-fit: cover;
+          }
+
+          .title {
+            line-height: 20px;
+            font-weight: bold;
+            padding: 0 5px;
+            font-size: 14px;
+          }
+
+          .size {
+            padding: 0 5px;
+            line-height: 20px;
+          }
+
+          .describe {
+            padding: 0 5px ;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+
+

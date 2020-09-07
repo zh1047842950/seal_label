@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <link rel="icon" href="<%= BASE_URL %>static/favicon.ico">
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        // document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+      })
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+      document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <link rel="stylesheet" href="<%= BASE_URL %>static/index.<%= VUE_APP_INDEX_CSS_HASH %>.css" />
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1873063_35bs6mojvoj.css" />
+<!--    <script src="https://cdn.bootcss.com/vConsole/3.3.0/vconsole.min.js"></script>-->
+    <!--    <script src="http://resources.vson.com.cn/vson_js/dom-to-image.js"></script>-->
+<!--    <script src="<%= BASE_URL %>static/js/dom-to-image.js"></script>-->
+    <script src="<%= BASE_URL %>static/js/html2canvas.min.js"></script>
+<!--    <script src="<%= BASE_URL %>static/js/clipboard.min.js"></script>-->
+<!--    <script src="<%= BASE_URL %>static/js/image-conversion.js"></script>-->
+    <!--
+        https://www.hcwzn.com/guocanju/daminghuangfeisunruoweichuan/0-3.html
+        大明风华电视剧第04集
+    -->
+    <style id="content_item_fonts" type="text/css">
+
+    </style>
+</head>
+
+<body>
+<noscript>
+    <strong>Please enable JavaScript to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+<script>
+  // var vConsole = new VConsole()
+</script>
+</html>
+
+
