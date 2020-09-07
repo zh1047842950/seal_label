@@ -13,4 +13,4 @@ COPY /server /workspace/seal_label
 WORKDIR /workspace/seal_label
 RUN mv /home/static ./static \
 && source /etc/profile \
-&& npm install 
+&& npm install
